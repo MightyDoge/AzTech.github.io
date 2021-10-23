@@ -426,7 +426,9 @@ iframe {
 
 @media (width: 768px) {
   .snip1273 {
-    max-width: 320px;
+    max-width: 330px;
+    margin-left:auto;
+    margin-right:auto;
   }
 }
 
