@@ -21,7 +21,7 @@ body::-webkit-scrollbar-thumb {
 
 body {
   background-color: #171717;
-  color: #f8f0e3;
+  color: #fff;
 }
 .preloader-wrapper {
   position: fixed;
