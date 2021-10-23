@@ -432,6 +432,14 @@ iframe {
     margin-right:auto;
   }
 }
+@media (width: 1024px) {
+  .snip1273 {
+    max-width: 330px;
+    margin-left:auto;
+    margin-right:auto;
+  }
+}
+
 
 /* CORE SECTION */
 .uk-card {
