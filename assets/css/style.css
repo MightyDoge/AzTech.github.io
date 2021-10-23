@@ -402,6 +402,29 @@ iframe {
   font-family: "Inter";
   font-size: 20px;
 }
+@media (min-width: 400px) and (max-width: 424px) {
+  .snip1273 {
+    max-width: 310px;
+  }
+}
+
+@media (min-width: 360px) and (max-width: 399px) {
+  .snip1273 {
+    max-width: 270px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 359px) {
+  .snip1273 {
+    max-width: 240px;
+  }
+}
+
+@media (width: 768px) {
+  .snip1273 {
+    max-width: 285px;
+  }
+}
 
 /* CORE SECTION */
 .uk-card {
