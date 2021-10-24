@@ -23,21 +23,7 @@ body {
   background-color: #171717;
   color: #fff;
 }
-.preloader-wrapper {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: #171717;
-  z-index: 999999;
-}
 
-.preloader {
-  position: absolute;
-  top: 48%;
-  left: 48%;
-}
 
 ::selection {
   background-color: #242424;
@@ -51,6 +37,17 @@ body {
   width: 100%;
   position: fixed;
   z-index: 100;
+}
+
+@media (max-width: 1024px) {
+  #preloader {
+    background: #000 url(loading-38.gif) no-repeat center center;
+    background-size: 40%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+  }
 }
 /* HEADER */
 .heading {
