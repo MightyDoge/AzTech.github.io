@@ -29,9 +29,9 @@
 
 <body>
     <!-- Preloader -->
-    <div class="preloader-wrapper">
-        <div class="preloader"></div>
-    </div>
+    
+        <div id="preloader"></div>
+    
 
 
     <header>
@@ -261,15 +261,12 @@ v44h-352z" />
      <!-- JQuery -->
      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
      <script>
-         $(document).ready(function() {
-             // Preloader
-             preloaderFadeOutTime = 500;
-             function hidePreloader(){
-                 const preloader = $('.preloader-wrapper');
-                 preloader.fadeOut(preloaderFadeOutTime);
-             }
-             hidePreloader()
-         });
+        var loader = document.getElementById("preloader");
+
+        window.addEventListener("load" , function(){
+            loader.style.display = "none";
+
+        })
      </script>
 
 
