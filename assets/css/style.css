@@ -80,6 +80,20 @@ body {
   }
 }
 
+@media (min-width: 921px) and (max-width: 1023px) {
+  .heading {
+    font-size: 100px;
+    width: 100%;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1506px) {
+  .heading {
+    font-size: 150px;
+    width: 100%;
+  }
+}
+
 @media (width: 1024px) {
   .heading {
     font-family: "Poppins";
