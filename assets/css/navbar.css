@@ -2,17 +2,14 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap");
 
+nav {
+  background-color: transparent;
+}
 ul li {
   font-size: 18px;
   padding: 0 0.8rem;
+  color: #fff;
 }
-
-/* .nav-item a:hover{
-    text-decoration:  overline white;
-    border-bottom: solid 1px white;
-    border-top:solid 1px white
-    transition: all ease-in-out(0.5s);
-} */
 
 a.nav-link {
   display: inline-block;
@@ -21,20 +18,58 @@ a.nav-link {
   font-weight: 600;
 }
 
-/* .nav-link::after {
-    content: '';
-    display: block;
-    width: 0;
-    height: 2px;
-    background: #fff;
-    transition: width .3s;
+@media (min-width: 1024px) {
+  .navbar .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 1.1em;
+    position: relative;
+  }
+  .navbar .navbar-nav .nav-link:hover {
+    color: #fff;
+  }
+  .navbar .navbar-nav .nav-link::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: #fff;
+    color: transparent;
+    width: 0%;
+    content: ".";
+    height: 3px;
+    transition: 0.2s;
+  }
+  .navbar .navbar-nav .nav-link:hover::after {
+    width: 100%;
+  }
 }
 
-.nav-link:hover::after {
+@media (max-width: 1023px) {
+  .navbar .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 1.1em;
+    position: relative;
+  }
+  .navbar .navbar-nav .nav-link:hover {
+    color: #fff;
+  }
+  .navbar .navbar-nav .nav-link::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: #fff;
+    color: transparent;
+    width: 0%;
+    content: ".";
+    height: 3px;
+  }
+  .navbar .navbar-nav .nav-link:hover::after {
     width: 100%;
-    
-    transition: width .3s;
-} */
+  }
+}
 
 .menu {
   color: black;
@@ -46,9 +81,9 @@ a.nav-link {
   transition: background 600ms;
 }
 
-.nav-link {
+/* .nav-link {
   background: linear-gradient(currentColor 0 0) 0 0,
-  linear-gradient(currentColor 0 0) 0 0,
+    linear-gradient(currentColor 0 0) 0 0,
     linear-gradient(currentColor 0 0) 100% 100%,
     linear-gradient(currentColor 0 0) 100% 100%,
     linear-gradient(currentColor 0 0) 0 0%,
@@ -58,10 +93,10 @@ a.nav-link {
   background-size: var(--d, 0) 2px, 2px var(--d, 0);
   background-repeat: no-repeat;
   transition: 0.4s;
-}
+}*/
 .nav-link:hover {
   --d: 15px;
-  color: #f8f0e3;
+  color: #fff;
 }
 
 .rbtn {
@@ -69,7 +104,7 @@ a.nav-link {
   text-decoration: None;
   color: white;
   padding: 10px;
-  transition: ease-in 0.1s;
+  transition: ease-in 0.2s;
   font-family: "Poppins";
   margin: 4px;
   font-weight: 500;
@@ -82,3 +117,4 @@ a.nav-link {
   color: #171717;
   padding: 10px;
 }
+
