@@ -219,6 +219,19 @@ body {
 }
 
 /* BUTTONS */
+
+.invite-btn a,
+.register-btn a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.invite-btn a:hover,
+.register-btn a:hover {
+  text-decoration: none;
+  color: #171717;
+}
+
 .invite-btn,
 .register-btn {
   font-size: 20px;
