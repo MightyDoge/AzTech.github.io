@@ -220,20 +220,8 @@ body {
 
 /* BUTTONS */
 
-.invite-btn a,
-.register-btn a {
-  text-decoration: none;
-  color: #fff;
-}
-
-.invite-btn a:hover,
-.register-btn a:hover {
-  text-decoration: none;
-  color: #171717;
-}
-
-.invite-btn,
-.register-btn {
+.invite,
+.register {
   font-size: 20px;
   color: #fff;
 
@@ -252,11 +240,24 @@ body {
   font-family: "PT Sans";
 }
 
-.invite-btn:hover,
-.register-btn:hover {
+.invite,
+.register {
+  text-decoration: none;
+  color: #fff;
+}
+
+.invite:hover,
+.register:hover {
+  text-decoration: none;
+  color: #171717;
+}
+
+.invite:hover,
+.register:hover {
   box-shadow: inset 200px 0 0 0 #fff;
   color: #171717;
 }
+
 
 /* TEASER */
 
