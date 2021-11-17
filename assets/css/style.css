@@ -258,7 +258,13 @@ body {
   color: #171717;
 }
 
-
+@media (max-width: 370px) {
+  .invite,
+  .register {
+    padding: 10px;
+    margin: 0 10px;
+  }
+}
 /* TEASER */
 
 iframe {
