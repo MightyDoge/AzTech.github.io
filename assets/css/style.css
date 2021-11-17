@@ -220,8 +220,8 @@ body {
 
 /* BUTTONS */
 
-/* .invite,
-.register {
+.invite-btn,
+.register-btn {
   font-size: 20px;
   color: #fff;
 
@@ -240,60 +240,24 @@ body {
   font-family: "PT Sans";
 }
 
-.invite,
-.register {
+.invite-btn a,
+.register-btn a {
   text-decoration: none;
   color: #fff;
 }
 
-.invite:hover,
-.register:hover {
+.invite-btn a:hover,
+.register-btn a:hover {
   text-decoration: none;
   color: #171717;
 }
 
-.invite:hover,
-.register:hover {
+.invite-btn:hover,
+.register-btn:hover {
   box-shadow: inset 200px 0 0 0 #fff;
   color: #171717;
 }
 
-@media (max-width: 370px) {
-  .invite,
-  .register {
-    padding: 10px;
-    margin: 0 10px;
-  }
-} */
-
-.invite,
-.register {
-  border: 3px solid white;
-  text-decoration: None;
-  color: white;
-  padding: 10px 20px;
-  transition: ease-in 0.2s;
-  font-family: "Poppins";
-  margin: 4px;
-  font-weight: 500;
-  letter-spacing: 4px;
-}
-
-.invite:hover,
-.register:hover {
-  background-color: white;
-
-  text-decoration: none;
-  color: #171717;
-}
-
-@media (max-width: 370px) {
-  .invite,
-  .register {
-    padding: 10px;
-    margin: 0 10px;
-  }
-}
 /* TEASER */
 
 iframe {
